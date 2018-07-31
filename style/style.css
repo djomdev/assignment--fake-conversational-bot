@@ -1,0 +1,104 @@
+* {
+  box-sizing: border-box;
+  font-family: "Gill Sans", sans-serif; }
+
+body {
+  background-color: #F2F3F4; }
+
+.box {
+  margin: 0 auto;
+  width: 500px;
+  height: 590px;
+  outline: 1px solid #E6E6E6;
+  background-color: white; }
+  .box__content-one {
+    width: 350px;
+    height: 45px;
+    position: relative;
+    left: 40px;
+    top: 40px;
+    color: white;
+    background-color: #42b3f4;
+    border-radius: 10px;
+    display: none;
+    margin-bottom: 10px; }
+  .box__content-two {
+    width: 350px;
+    height: 75px;
+    position: relative;
+    left: 40px;
+    top: 40px;
+    color: white;
+    background-color: #42b3f4;
+    border-radius: 10px;
+    display: none;
+    margin-bottom: 10px; }
+  .box__content-three {
+    width: 350px;
+    height: 65px;
+    position: relative;
+    left: 40px;
+    top: 40px;
+    color: white;
+    background-color: #42b3f4;
+    border-radius: 10px;
+    display: none;
+    margin-bottom: 10px; }
+  .box__content-four {
+    width: 350px;
+    height: 45px;
+    position: relative;
+    left: 40px;
+    top: 40px;
+    color: white;
+    background-color: #42b3f4;
+    border-radius: 10px;
+    display: none;
+    margin-bottom: 10px; }
+  .box__content-five {
+    width: 350px;
+    height: 45px;
+    position: relative;
+    left: 40px;
+    top: 40px;
+    color: white;
+    background-color: #42b3f4;
+    border-radius: 10px;
+    display: none;
+    margin-bottom: 10px; }
+  .box__text {
+    color: white;
+    font-size: 15px; }
+  .box__input {
+    display: none;
+    position: relative;
+    width: 350px;
+    top: 40px;
+    border: 1px solid #EFEFEF;
+    background-color: #FAFAFA;
+    height: 45px;
+    margin-top: 21px;
+    margin-bottom: 10px;
+    left: 40px; }
+  .box__sidebar {
+    background-color: #5089f3;
+    height: 590px;
+    display: flex;
+    flex-direction: column;
+    overflow: auto;
+    float: left;
+    position: relative; }
+  .box__initial {
+    margin: 10px;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    background-color: #a7c5fa; }
+  .box__initial:hover {
+    cursor: pointer; }
+
+.heading {
+  margin-top: 60px; }
+
+.active {
+  display: block; }

@@ -1,0 +1,129 @@
+$general-border-color: #E6E6E6;
+$bckgrnd-blue: #42b3f4;
+$input-border-color: #EFEFEF;
+$input-fill-color: #FAFAFA;
+$input-height: 45px;
+
+* {
+	box-sizing: border-box;
+	font-family: "Gill Sans", sans-serif;
+	// outline: 1px solid red;
+}
+
+body {
+	background-color: #F2F3F4;
+}
+
+.box {
+	  margin: 0 auto;
+	  width: 500px;
+	  height: 590px;
+	  outline: 1px solid $general-border-color;
+	  background-color: white;
+	  &__content-one {
+		  width: 350px;
+		  height: 45px;
+		  position: relative;
+		  left: 40px;
+		  top: 40px;
+		  color: white;
+		  background-color: $bckgrnd-blue;
+		  border-radius: 10px;
+		  display: none;
+		  margin-bottom: 10px;
+	  }
+	  &__content-two {
+		  width: 350px;
+		  height: 75px;
+		  position: relative;
+		  left: 40px;
+		  top: 40px;
+		  color: white;
+		  background-color: $bckgrnd-blue;
+		  border-radius: 10px;
+		  display: none;
+		  margin-bottom: 10px;
+	  }
+	  &__content-three{
+		  width: 350px;
+		  height: 65px;
+		  position: relative;
+		  left: 40px;
+		  top: 40px;
+		  color: white;
+		  background-color: $bckgrnd-blue;
+		  border-radius: 10px;
+		  display: none;
+		  margin-bottom: 10px;
+	  }
+	  &__content-four {
+		  width: 350px;
+		  height: 45px;
+		  position: relative;
+		  left: 40px;
+		  top: 40px;
+		  color: white;
+		  background-color: $bckgrnd-blue;
+		  border-radius: 10px;
+		  display: none;
+		  margin-bottom: 10px;
+	  }
+	  &__content-five {
+		  width: 350px;
+		  height: 45px;
+		  position: relative;
+		  left: 40px;
+		  top: 40px;
+		  color: white;
+		  background-color: $bckgrnd-blue;
+		  border-radius: 10px;
+		  display: none;
+		  margin-bottom: 10px;
+	  }
+	  &__text {
+	  	 color: white;
+	  	 font-size: 15px;
+	  }
+	  &__input {
+		 display: none;
+		 position: relative;
+		 width: 350px;
+		 top: 40px;
+		 border: 1px solid $input-border-color;
+		 background-color: $input-fill-color;
+		 height: $input-height;
+		 margin-top: 21px;
+		 margin-bottom: 10px;
+		 left: 40px;	  	 	  
+	  }
+	  &__sidebar{
+	  background-color:#5089f3;
+	  height: 590px;
+	  display: flex;
+	  flex-direction: column;
+	  overflow: auto;
+	  float: left;
+	  position: relative
+	  }
+
+	  &__initial {
+	  margin: 10px;
+	  width: 50px;
+	  height: 50px;
+	  border-radius: 100%;
+	  background-color: #a7c5fa;
+	  }
+	  &__initial:hover{
+	  cursor: pointer;
+	}
+}
+
+
+
+.heading{
+	margin-top: 60px;
+}
+
+.active {
+	display: block;
+}
